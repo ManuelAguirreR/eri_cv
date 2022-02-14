@@ -1,0 +1,17 @@
+#my-project{
+    display: flex;
+
+}
+
+#my-project-description{
+    margin: 0 auto 0 12.8rem;
+    padding-right: 3.3rem;
+}
+
+#img-dispositivos{
+    margin: 0 12.1rem 18.1rem auto;
+}
+
+#btn-ver-proyecto{
+    margin-right: 1rem;
+}
