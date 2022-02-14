@@ -1,0 +1,63 @@
+
+@import url(./about-me.css);
+
+:root{
+    font-size: 10px;
+    --font-base: "Poppins", sans-serif;
+    --primary:#310A90;
+    --secondary:white;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-base);
+    font-style: normal;
+    font-weight:normal;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    letter-spacing: 0.005em;
+    color: var(--primary);
+    background: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+}
+
+.container{
+    display: flex;
+}
+
+.container-icon{
+    display: flex;
+    width: 4.4rem;
+    height: 4.4rem;
+    background-color: var(--secondary);
+    border: 2px solid var(--primary);
+    border-radius: 0.4rem;
+    margin-right: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.btn{
+    width: 16.8rem;
+    height: 4.9rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
+    color: var(--secondary);
+}
+
