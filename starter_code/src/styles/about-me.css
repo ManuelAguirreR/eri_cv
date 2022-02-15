@@ -8,11 +8,12 @@ nav{
     display:flex;
     flex-direction: row;
     margin-bottom: 31.4rem;
+    justify-content: space-around;
 }
 
 #soy-manuel{
     width: 54.3rem;
-    margin: 3.7rem auto 0 auto;
+    margin-top: 3.7rem;
     
 }
 ul{
@@ -70,7 +71,7 @@ h2{
 
 
 #img-profile{
-    margin: 6.1rem auto 0 0;
+    margin-top: 6.1rem;
     width: 50rem;
     height: 50.4rem;
     background-image: url(../img/img_personal.jpg);

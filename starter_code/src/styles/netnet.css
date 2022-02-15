@@ -1,0 +1,17 @@
+#netnet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 16.3rem;
+}
+
+#matrix-img{
+    display: flex;
+    width: 26.4rem;
+    height: 53.4rem;
+}
+
+#matrix-text{
+    width: 44.8rem;
+    align-self: center;
+}

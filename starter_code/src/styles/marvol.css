@@ -1,0 +1,17 @@
+#marvol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 16.3rem;
+}
+
+#marvol-img{
+    display: flex;
+    width: 45rem;
+    height: 62.5rem;
+}
+
+#marvol-text{
+    width: 44.8rem;
+    align-self: center;
+}

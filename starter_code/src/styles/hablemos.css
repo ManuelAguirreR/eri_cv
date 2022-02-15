@@ -1,0 +1,16 @@
+#hablemos{
+    height: ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+
+}
+
+label, input{
+    display: block;
+}
+
+#campo-obligatorio{
+    color: var(--danger);
+}

@@ -1,6 +1,10 @@
 
 @import url(./about-me.css);
 @import url(./my-project.css);
+@import url(./comentario.css);
+@import url(./marvol.css);
+@import url(./netnet.css);
+@import url(./hablemos.css);
 
 :root{
     font-size: 10px;
@@ -8,7 +12,7 @@
     --font-secondary: "Oxygen", sans-serif;
     --primary:#310A90;
     --secondary:white;
-
+    --danger:#DA1414;
 }
 
 *{
@@ -26,6 +30,12 @@ body{
     letter-spacing: 0.005em;
     color: var(--primary);
     background: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+    padding: 0 8rem 0 12.8rem;
+}
+
+img{
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .container{
@@ -108,4 +118,6 @@ p{
     background-color: var(--primary);
     box-shadow: -4px 4px 0px var(--secondary);
     margin-bottom: 1.6rem;
+    text-transform: uppercase;
 }
+

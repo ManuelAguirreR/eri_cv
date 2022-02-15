@@ -1,17 +1,24 @@
 #my-project{
     display: flex;
-
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 18.1rem;
 }
 
-#my-project-description{
-    margin: 0 auto 0 12.8rem;
-    padding-right: 3.3rem;
+#my-project-text{
+    width: 44.9rem;
 }
 
-#img-dispositivos{
-    margin: 0 12.1rem 18.1rem auto;
+#my-project-img{
+
 }
 
 #btn-ver-proyecto{
     margin-right: 1rem;
+}
+
+#iphone-x{
+    position: relative;
+    right: 660px;
+    bottom: 15px;
 }
